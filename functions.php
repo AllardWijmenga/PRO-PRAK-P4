@@ -1,15 +1,16 @@
 <?php
 
-require '../PHPMailer-master/src/PHPMailer.php';
-require '../PHPMailer-master/src/SMTP.php';
-require '../PHPMailer-master/src/Exception.php';
+
+require 'PHPMailer-master/src/PHPMailer.php';
+require 'PHPMailer-master/src/SMTP.php';
+require 'PHPMailer-master/src/Exception.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-//fucntion to send a mail using PHP mailer and gmail
 
+//fucntion to send a mail using PHP mailer and gmail
 function send_email($to_address)
 {
     // Instantiate a new PHPMailer object
@@ -21,8 +22,8 @@ function send_email($to_address)
         $mail->isSMTP(); // Send using SMTP
         $mail->Host = 'smtp.gmail.com'; // Set the SMTP server to send through
         $mail->SMTPAuth = true; // Enable SMTP authentication
-        $mail->Username = '341652165a@gmail.com'; // SMTP username
-        $mail->Password = 'muvipgvfzgnolkuu'; // SMTP password
+        $mail->Username = 'dsibdisdiuy63fduvsv@gmail.com'; // SMTP username
+        $mail->Password = 'xdqevpeiaxidjkyz'; // SMTP password
         $mail->SMTPSecure = "tls"; // Enable TLS encryption
         $mail->Port = 587; // TCP port to connect to
 
@@ -32,10 +33,10 @@ function send_email($to_address)
 
         // Content
         $mail->isHTML(true); // Set email format to HTML
-        $mail->Subject = 'Uitslag scizofrenie test';
+        $mail->Subject = 'nieuwsbrief';
 
 
-        $mail->Body = "u heeft  van de 44 punten gehaald it betekend dat u  geen schizofrenie heeft";
+        $mail->Body = "dankuwel voor het aanmelden bij onze nieuwsbrief";
 
         // Send the email
         $mail->send();
@@ -44,3 +45,6 @@ function send_email($to_address)
         echo 'Message could not be sent. Error: ' . $mail->ErrorInfo;
     }
 }
+
+
+
