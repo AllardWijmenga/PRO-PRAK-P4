@@ -36,7 +36,7 @@ function send_email($to_address)
         $mail->Subject = 'nieuwsbrief';
 
 
-        $mail->Body = "dankuwel voor het aanmelden bij onze nieuwsbrief";
+        $mail->Body = "Dankuwel voor het geven van uw data wij nemen snel contact met u op";
 
         // Send the email
         $mail->send();

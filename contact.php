@@ -40,14 +40,23 @@
         echo $e->getMessage();
     }
 
-    $sql = "INSERT INTO user ( Email
+    $sql = "INSERT INTO Contact (  Name,
+                                Email,
+                                Telefoon,
+                                Opmerking
 
                              )
-        VALUES                  (:email);";
+        VALUES                  (:name,
+                                 :email,
+                                 :Telefoon,
+                                 :Opmerking);";
 
 //maakt de query gereed met de prepare method 
 $statement = $pdo->prepare($sql);
+$statement->bindValue(':name', $_POST['name'], PDO::PARAM_STR);
 $statement->bindValue(':email', $_POST['Email'], PDO::PARAM_STR);
+$statement->bindValue(':Telefoon', $_POST['Telefoon'], PDO::PARAM_STR);
+$statement->bindValue(':Opmerking', $_POST['Opmerking'], PDO::PARAM_STR);
 $statement->execute();
     }?>
 </body>
