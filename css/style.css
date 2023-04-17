@@ -1,0 +1,22 @@
+.video1{
+    background-color: #ffffff;
+    height: 10%;
+    width: 10%;
+    
+}
+    
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background-color: #ffffff;
+    
+}
+
