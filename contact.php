@@ -11,6 +11,18 @@
     <title>Document</title>
 </head>
 <body>
+<header>
+        <nav class="nav-bar">
+            <div class="container">
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="info.php">Informatie</a></li>
+                    <li><a href="product.php">Product</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <!-- input to get user data  -->
 <form action="contact.php" method="post">
     <label for="Naam">Uw Naam :</label>
