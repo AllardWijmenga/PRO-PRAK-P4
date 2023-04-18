@@ -26,6 +26,59 @@ body {
     width: 10%;
     text-align: center;
 }
+.background-contact {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: scroll;
+  }
+  
+  .background-contact img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+  }
+.video1{
+    background-color: #ffffff;
+    height: 10%;
+    width: 10%;
+    
+}
+    
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background-color: #ffffff;
+    
+}
+
+#contact-form {
+    padding-top: 100rem;
+    margin: 0 auto;
+    width: 10%;
+    text-align: center;
+}
 
 .nav-bar {
     position: fixed;
