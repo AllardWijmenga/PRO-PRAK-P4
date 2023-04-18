@@ -58,15 +58,6 @@ body {
     
 }
     
-body {
-    background-color: #000000;
-    color: #ffffff;
-    font-family: "Arial", sans-serif;
-    font-size: 12px;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-}
 
 .menu{
     background-color: #ffffff;
@@ -85,7 +76,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #000;
+    background-color: #00000000;
     z-index: 1;
   }
   
