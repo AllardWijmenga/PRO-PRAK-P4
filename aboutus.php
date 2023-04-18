@@ -1,5 +1,3 @@
-<?php include "functions.php"?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+<body>
 <body>
 <header>
     <nav class="nav-bar">
@@ -23,5 +22,6 @@
       </div>
     </nav>
   </header>
+    
 </body>
 </html>

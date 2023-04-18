@@ -12,16 +12,18 @@
 </head>
 <body>
 <header>
-        <nav class="nav-bar">
-            <div class="container">
-                <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="product.php">Product</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <nav class="nav-bar">
+      <div class="container">
+        <a href="index.php" class="logo"></a>
+        <ul>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="product.php">Product</a></li>
+          <li><a href="contact.php">Contact</a></li>
+          <li><a href="aboutus.php">About us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
     <div class="background-contact">
   <img src="img/sl1.png" alt="sl">
   <div class="content">

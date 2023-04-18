@@ -51,3 +51,80 @@ body {
     z-index: 1;
     padding: 20px;
   }
+.video1{
+    background-color: #ffffff;
+    height: 10%;
+    width: 10%;
+    
+}
+    
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background-color: #ffffff;
+    
+}
+
+#contact-form {
+    padding-top: 100rem;
+    margin: 0 auto;
+    width: 10%;
+    text-align: center;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    z-index: 1;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .logo {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-align: right; 
+  }
+  
+  .nav-bar li {
+    margin-right: 20px;
+  }
+  
+  .nav-bar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .nav-bar a:hover {
+    text-decoration: underline;
+  }
+  
