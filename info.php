@@ -12,5 +12,6 @@
 </head>
 <body>
     <p><?php $result = GetDBInfo('Info1'); foreach($result as $info){echo "$info->Info1";}?></p>
+    <?php var_dump($result);?>
 </body>
 </html>
