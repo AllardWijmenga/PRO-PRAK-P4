@@ -9,7 +9,6 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-
 //fucntion to send a mail using PHP mailer and gmail
 function send_email($to_address)
 {
@@ -40,7 +39,7 @@ function send_email($to_address)
 
         // Send the email
         $mail->send();
-        echo 'Email has been sent to ' . $to_address;
+        // echo 'Email has been sent to ' . $to_address;
     } catch (Exception $e) {
         echo 'Message could not be sent. Error: ' . $mail->ErrorInfo;
     }
@@ -48,3 +47,27 @@ function send_email($to_address)
 
 
 
+function GetDBInfo($table)
+{
+    include('config.php');
+
+     $dsn = "mysql:host=$dbHost;dbname=$dbName;charset=UTF8";
+    
+        try {
+            $pdo = new PDO($dsn, $dbUser, $dbPass);
+        } catch (PDOException $e) {
+            echo "er is helaas geen verbinding met de DB";
+            echo $e->getMessage();
+            die();
+        }
+
+        $sql = "SELECT $table FROM CMS";
+
+
+//maakt de query gereed met de prepare method 
+$statement = $pdo->prepare($sql);
+$statement->execute();
+$result = $statement->fetchAll(PDO::FETCH_OBJ);
+return $result;
+
+}

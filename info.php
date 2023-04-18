@@ -1,3 +1,6 @@
+<?php include "functions.php";
+        include ('config.php')?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +11,6 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <p><?php $result = GetDBInfo('Info1'); foreach($result as $info){echo "$info->Info1";}?></p>
 </body>
 </html>
