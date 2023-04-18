@@ -14,7 +14,7 @@
 <header>
     <nav class="nav-bar">
       <div class="container">
-        <a href="index.php" class="logo"></a>
+      <a href="index.php" class="logo"><img src="img/sl5.png" alt="Logo"></a>
         <ul>
           <li><a href="index.php">Home</a></li>
           <li><a href="product.php">Product</a></li>

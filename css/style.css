@@ -46,11 +46,19 @@ body {
   }
   
   .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
     color: #fff;
     font-size: 24px;
     font-weight: bold;
-    text-decoration: none;
   }
+  
+  .logo img {
+    height: 40px; 
+    margin-right: 10px; 
+  }
+  
   
   .nav-bar ul {
     list-style: none;
