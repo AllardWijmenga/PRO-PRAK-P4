@@ -1,4 +1,5 @@
-<?php include "functions.php"?>
+<?php include "functions.php";
+        include ('config.php')?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,5 +22,7 @@
             </div>
         </nav>
     </header>
+    <p><?php $result = GetDBInfo('Info1'); foreach($result as $info){echo "$info->Info1";}?></p>
+
 </body>
 </html>

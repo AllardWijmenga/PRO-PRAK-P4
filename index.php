@@ -19,6 +19,7 @@
                     <li><a href="contact.php">Contact</a></li>
                 </ul>
             </div>
+        </div>
         </nav>
     </header>
 </body>
