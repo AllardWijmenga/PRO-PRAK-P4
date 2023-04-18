@@ -12,5 +12,17 @@
 </head>
 <body>
     <p><?php $result = GetDBInfo('Info1'); foreach($result as $info){echo "$info->Info1";}?></p>
+    <header>
+        <nav class="nav-bar">
+            <div class="container">
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="info.php">Informatie</a></li>
+                    <li><a href="product.php">Product</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 </body>
 </html>
