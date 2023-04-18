@@ -12,17 +12,18 @@
 </head>
 <body>
 <header>
-        <nav class="nav-bar">
-            <div class="container">
-                <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="product.php">Product</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                    <li><a href="aboutus.php">About us</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <nav class="nav-bar">
+      <div class="container">
+        <a href="index.php" class="logo"></a>
+        <ul>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="product.php">Product</a></li>
+          <li><a href="contact.php">Contact</a></li>
+          <li><a href="aboutus.php">About us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
     <!-- input to get user data  -->
     <div id="contact-form">
         <form action="contact.php" method="post">
