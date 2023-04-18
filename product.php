@@ -16,7 +16,6 @@
             <div class="container">
                 <ul>
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="info.php">Informatie</a></li>
                     <li><a href="product.php">Product</a></li>
                     <li><a href="contact.php">Contact</a></li>
                 </ul>
