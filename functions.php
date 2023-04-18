@@ -61,7 +61,7 @@ function GetDBInfo($table)
             die();
         }
 
-        $sql = "SELECT $table FROM CMS";
+        $sql = "SELECT $table FROM CMS order by Info1ID desc LIMIT 1";
 
 
 //maakt de query gereed met de prepare method 
