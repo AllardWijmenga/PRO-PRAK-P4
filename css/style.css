@@ -26,3 +26,28 @@ body {
     width: 10%;
     text-align: center;
 }
+.background-contact {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: scroll;
+  }
+  
+  .background-contact img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+  }

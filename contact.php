@@ -22,6 +22,12 @@
             </div>
         </nav>
     </header>
+    <div class="background-contact">
+  <img src="img/sl1.png" alt="sl">
+  <div class="content">
+    <!-- Your content goes here -->
+  </div>
+</div>
     <!-- input to get user data  -->
     <div id="contact-form">
         <form action="contact.php" method="post">
