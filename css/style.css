@@ -1,10 +1,9 @@
-.video1{
+.video1 {
     background-color: #ffffff;
     height: 10%;
     width: 10%;
-    
 }
-    
+
 body {
     background-color: #000000;
     color: #ffffff;
@@ -15,9 +14,8 @@ body {
     padding: 0;
 }
 
-.menu{
+.menu {
     background-color: #ffffff;
-    
 }
 
 #contact-form {
@@ -26,6 +24,7 @@ body {
     width: 10%;
     text-align: center;
 }
+
 .background-contact {
     position: fixed;
     top: 0;
@@ -33,9 +32,9 @@ body {
     right: 0;
     bottom: 0;
     overflow: scroll;
-  }
-  
-  .background-contact img {
+}
+
+.background-contact img {
     position: absolute;
     top: 0;
     left: 0;
@@ -44,31 +43,12 @@ body {
     width: 100%;
     height: auto;
     z-index: -1;
-  }
-  
-  .content {
+}
+
+.content {
     position: relative;
     z-index: 1;
     padding: 20px;
-  }
-.video1{
-    background-color: #ffffff;
-    height: 10%;
-    width: 10%;
-    
-}
-    
-
-.menu{
-    background-color: #ffffff;
-    
-}
-
-#contact-form {
-    padding-top: 100rem;
-    margin: 0 auto;
-    width: 10%;
-    text-align: center;
 }
 
 .nav-bar {
@@ -76,54 +56,112 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #00000000;
+    background-color: transparent;
     z-index: 1;
-  }
-  
-  .container {
+}
+
+.container {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
-  }
-  
-  .logo {
+}
+
+.logo {
     display: flex;
     align-items: center;
     text-decoration: none;
     color: #fff;
     font-size: 24px;
     font-weight: bold;
-  }
-  
-  .logo img {
-    height: 40px; 
-    margin-right: 10px; 
-  }
-  
-  
-  .nav-bar ul {
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nav-bar ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-    text-align: right; 
-  }
-  
-  .nav-bar li {
+    text-align: right;
+}
+
+.nav-bar li {
     margin-right: 20px;
-  }
-  
-  .nav-bar a {
+}
+
+.nav-bar a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
-  }
-  
-  .nav-bar a:hover {
+}
+
+.nav-bar a:hover {
     text-decoration: underline;
+}
+
+
+.container {
+  display: flex;
+}
+
+.columnhp1 {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.columnhp1 h1 {
+  position: relative;
+  left: 50px;
+  top: 90px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.columnhp1 p {
+  position: relative;
+  left: 50px;
+  top: 90px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.columnhp1 img {
+  border-radius: 90px;
+  position: relative;
+  left: 50px;
+
+}
+  .productbanner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
   }
-  
+
+  .columnproduct1 img {
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    left: 60px;
+    top: 850px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+
+  .columnproduct1 h1 {
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    left: 60px;
+    top: 850px;
+    border-radius: 20px;
+    object-fit: cover;
+  }

@@ -26,7 +26,7 @@
                 </ul>
             </div>
         </div>
-=======
+
 <header>
     <nav class="nav-bar">
       <div class="container">
@@ -40,5 +40,19 @@
       </div>
     </nav>
   </header>
+
+  <div class="container">
+    <div class="columnhp1">
+      <h1>Column 1</h1>
+      <p>Some text..</p>
+      <img src="../img/Homepagina/camper.jpg" alt="img1">
+    </div>
+    <div class="columnhp2">
+      <!-- Content for the second column -->
+    </div>
+    <div class="columnhp3">
+      <!-- Content for the third column -->
+    </div>
+  </div>
 </body>
 </html>
