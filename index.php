@@ -10,23 +10,6 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">
-            <video class="video1" src="video/Satelite-orbit.mp4" autoplay muted loop></video>
-                <a href="index.php">Satellite</a>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="homepage.php">Home</a></li>
-                    <li><a href="product.php">Product</a></li>
-                    <li><a href="info.php">Informatie</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                    
-                </ul>
-            </div>
-        </div>
-=======
 <header>
     <nav class="nav-bar">
       <div class="container">
@@ -43,12 +26,14 @@
 
   <div class="container">
     <div class="columnhp1">
-      <h1>Column 1</h1>
-      <p>Some text..</p>
+      <h1>Betrouwbaar internet voor reizigers met Starlink</h1>
+      <p> Reis jij graag? Met Starlink's Portability add-on en Roam heb je overal toegang tot snel en betrouwbaar internet met lage latency. Neem je Starlink-apparatuur gemakkelijk mee en pauzeer en betaal alleen voor de periode waarin je internet nodig hebt met Roam. Ideaal voor werken op afstand, streamen en gamen tijdens het reizen.</p>
       <img src="../img/Homepagina/camper.jpg" alt="img1">
     </div>
     <div class="columnhp2">
-      <!-- Content for the second column -->
+      <h1></h1>
+      <p></p>
+      <img src="../img/Homepagina/roof.jpg" alt="img2">
     </div>
     <div class="columnhp3">
       <!-- Content for the third column -->
