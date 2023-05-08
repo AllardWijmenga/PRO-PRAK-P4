@@ -10,23 +10,6 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">
-            <video class="video1" src="video/Satelite-orbit.mp4" autoplay muted loop></video>
-                <a href="index.php">Satellite</a>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="homepage.php">Home</a></li>
-                    <li><a href="product.php">Product</a></li>
-                    <li><a href="info.php">Informatie</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                    
-                </ul>
-            </div>
-        </div>
-=======
 <header>
     <nav class="nav-bar">
       <div class="container">
