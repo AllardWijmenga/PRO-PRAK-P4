@@ -30,6 +30,7 @@
       <h1>Promotie</h1>
       <img src="img/starlink-rvs.jpg" alt="" class="productimg1">
     </div>
-    <!-- <p><?php $result = GetDBInfo('Info1'); foreach($result as $info){echo "$info->Info1";}?></p> -->
+    <p><?php $result = GetDBInfo('Info1' , 1); foreach($result as $info){echo "$info->Info1";}?></p>
+
 </body>
 </html>

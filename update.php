@@ -15,18 +15,14 @@ try {
     echo $e->getMessage();
 }
 
+// using the function to update the database
+UpdateDBInfo('Info1');
 
-
-
-// var_dump($result);
-
-
-// echo $result[0]->Voornaam;
 
 $row = "";
 
 ?>
-<form action="info.php" method="post">
+<form action="update.php" method="post">
 
     <label for="Content">pas de Content hier aan</label>
     <textarea id="Content" name="Content" rows="4" cols="50">
@@ -36,14 +32,12 @@ $row = "";
     } ?>
     </textarea>
 
-    <label for="Content2">Pas hier de content aan testing </label>
-    <textarea id="Content" name="Content" rows="4" cols="50">
-    <?php $result = GetDBInfo('Info1', 2);
-    foreach ($result as $info) {
-        echo "$info->Info1";
-    } ?>
-    </textarea>
 
+ <input type="hidden" name="Id" value=" <?php $result = GetDBInfo('Info1', 1);
+    foreach ($result as $info) {
+        echo "$info->Info1ID";
+    } ?>">
+    <input type="submit" value="Submit" class="button">
 </form>
 
 <?php
