@@ -24,7 +24,12 @@
       </div>
     </nav>
   </header>
-    <p><?php $result = GetDBInfo('Info1'); foreach($result as $info){echo "$info->Info1";}?></p>
-
+  <img src="img/e520d488-3cfa-4d4e-98cf-e564dc55436b.jpg" alt="" class="productbanner">
+  <div class="container">
+    <div class="columnproduct1">
+      <h1>Promotie</h1>
+      <img src="img/starlink-rvs.jpg" alt="" class="productimg1">
+    </div>
+    <!-- <p><?php $result = GetDBInfo('Info1'); foreach($result as $info){echo "$info->Info1";}?></p> -->
 </body>
 </html>
