@@ -107,7 +107,7 @@ body {
     text-decoration: underline;
 }
 
-
+/* homepage style */
 .container {
   display: flex;
 }
@@ -117,6 +117,7 @@ body {
   padding: 20px;
   box-sizing: border-box;
 }
+
 .columnhp1 h1 {
   position: relative;
   left: 50px;
@@ -150,6 +151,7 @@ body {
   padding: 20px;
   box-sizing: border-box;
 }
+
 .columnhp2 h1 {
   position: relative;
   left: 50px;
@@ -177,6 +179,7 @@ body {
   width: 600px;
   top: -300px;
 }
+
   .productbanner {
     position: relative;
     width: 100%;
