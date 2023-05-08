@@ -47,7 +47,7 @@ function send_email($to_address)
 
 
 
-function GetDBInfo($table)
+function GetDBInfo($table , $ID)
 {
     include('config.php');
 
@@ -61,7 +61,7 @@ function GetDBInfo($table)
             die();
         }
 
-        $sql = "SELECT $table FROM CMS order by Info1ID desc LIMIT 1";
+        $sql = "SELECT $table , Info1ID FROM CMS where Info1ID = $ID order by Info1ID desc LIMIT 1 ";
 
 
 //maakt de query gereed met de prepare method 
@@ -70,4 +70,26 @@ $statement->execute();
 $result = $statement->fetchAll(PDO::FETCH_OBJ);
 return $result;
 
+}
+
+function UpdateDBInfo($table)
+{
+    include('config.php');
+
+    $dsn = "mysql:host=$dbHost;dbname=$dbName;charset=UTF8";
+   
+       try {
+           $pdo = new PDO($dsn, $dbUser, $dbPass);
+       } catch (PDOException $e) {
+           echo "er is helaas geen verbinding met de DB";
+           echo $e->getMessage();
+           die();
+       }
+
+       $sql = "SELECT $table FROM CMS order by Info1ID desc LIMIT 1";
+
+
+//maakt de query gereed met de prepare method 
+$statement = $pdo->prepare($sql);
+$statement->execute();
 }

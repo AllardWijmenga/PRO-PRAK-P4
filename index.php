@@ -10,6 +10,23 @@
     <title>Document</title>
 </head>
 <body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+            <video class="video1" src="video/Satelite-orbit.mp4" autoplay muted loop></video>
+                <a href="index.php">Satellite</a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="homepage.php">Home</a></li>
+                    <li><a href="product.php">Product</a></li>
+                    <li><a href="info.php">Informatie</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+=======
 <header>
     <nav class="nav-bar">
       <div class="container">
@@ -23,5 +40,19 @@
       </div>
     </nav>
   </header>
+
+  <div class="container">
+    <div class="columnhp1">
+      <h1>Column 1</h1>
+      <p>Some text..</p>
+      <img src="../img/Homepagina/camper.jpg" alt="img1">
+    </div>
+    <div class="columnhp2">
+      <!-- Content for the second column -->
+    </div>
+    <div class="columnhp3">
+      <!-- Content for the third column -->
+    </div>
+  </div>
 </body>
 </html>
