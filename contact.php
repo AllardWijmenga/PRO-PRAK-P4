@@ -11,18 +11,41 @@
     <title>Document</title>
 </head>
 <body>
+<header>
+    <nav class="nav-bar">
+      <div class="container">
+      <a href="index.php" class="logo"><img src="img/sl5.png" alt="Logo"></a>
+        <ul>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="product.php">Product</a></li>
+          <li><a href="contact.php">Contact</a></li>
+          <li><a href="aboutus.php">About us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+    <div class="background-contact">
+  <img src="img/sl1.png" alt="sl">
+  <div class="content">
+    <!-- Your content goes here -->
+  </div>
+</div>
     <!-- input to get user data  -->
-<form action="contact.php" method="post">
-    <label for="Naam">Uw Naam :</label>
-    <input type="text" name="name" id="name">
-    <label for="email">Uw email :</label>
-    <input type="email" name="Email" id="Email">
-    <label for="Telefoon">Telefoon :</label>
-    <input type="tel" name="Telefoon" id="Telefoon">
-    <label for="Opmerking">Opmerking :</label>
-    <input type="text" name="Opmerking" id="Opmerking">
-    <input type="submit" value="Submit">
-    </form>
+
+
+    <div id="contact-form">
+        <form action="contact.php" method="post">
+        <label for="Naam">Uw Naam :</label>
+        <input type="name" name="name" id="name">
+        <label for="Email">Uw email :</label>
+        <input type="email" name="Email" id="Email">
+        <label for="Telefoon">Telefoon :</label>
+        <input type="Telefoon" name="Telefoon" id="Telefoon">
+        <label for="Opmerking">Opmerking :</label>
+        <input type="Opmerking" name="Opmerking" id="Opmerking">
+        <input type="submit" value="Submit">
+        </form>
+    </div>
 
 <?php 
     // running the function if the users email is set
