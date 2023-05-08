@@ -4,6 +4,7 @@
     width: 10%;
 }
 
+
 body {
     background-color: #000000;
     color: #ffffff;
@@ -123,6 +124,7 @@ body {
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 20px;
+  max-width: 400px;
 }
 
 .columnhp1 p {
@@ -130,15 +132,50 @@ body {
   left: 50px;
   top: 90px;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: thin;
   margin-bottom: 20px;
+  max-width: 350px;
 }
 
 .columnhp1 img {
   border-radius: 90px;
   position: relative;
-  left: 50px;
+  left: 600px;
+  width: 600px;
+  top: -300px;
+}
 
+.columnhp2 {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.columnhp2 h1 {
+  position: relative;
+  left: 50px;
+  top: 90px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+.columnhp2 p {
+  position: relative;
+  left: 50px;
+  top: 90px;
+  font-size: 20px;
+  font-weight: thin;
+  margin-bottom: 20px;
+  max-width: 350px;
+}
+
+.columnhp2 img {
+  border-radius: 90px;
+  position: relative;
+  left: 600px;
+  width: 600px;
+  top: -300px;
 }
   .productbanner {
     position: relative;
