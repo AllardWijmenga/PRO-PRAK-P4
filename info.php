@@ -11,7 +11,6 @@
     <title>Document</title>
 </head>
 <body>
-    <p><?php $result = GetDBInfo('Info1'); foreach($result as $info){echo "$info->Info1";}?></p>
     <header>
         <nav class="nav-bar">
             <div class="container">
@@ -24,5 +23,9 @@
             </div>
         </nav>
     </header>
-</body>
+
+    <p><?php $result = GetDBInfo('Info1' , 1); foreach($result as $info){echo "$info->Info1";}?></p>
+
+        <a href="update.php&"></a>
+    </body>
 </html>

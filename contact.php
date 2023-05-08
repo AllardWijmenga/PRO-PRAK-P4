@@ -14,13 +14,13 @@
     <!-- input to get user data  -->
 <form action="contact.php" method="post">
     <label for="Naam">Uw Naam :</label>
-    <input type="name" name="name" id="name">
-    <label for="Email">Uw email :</label>
+    <input type="text" name="name" id="name">
+    <label for="email">Uw email :</label>
     <input type="email" name="Email" id="Email">
     <label for="Telefoon">Telefoon :</label>
-    <input type="Telefoon" name="Telefoon" id="Telefoon">
+    <input type="tel" name="Telefoon" id="Telefoon">
     <label for="Opmerking">Opmerking :</label>
-    <input type="Opmerking" name="Opmerking" id="Opmerking">
+    <input type="text" name="Opmerking" id="Opmerking">
     <input type="submit" value="Submit">
     </form>
 
