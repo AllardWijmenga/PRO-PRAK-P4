@@ -41,6 +41,24 @@ $row = "";
 </form>
 
 
+<form action="update.php" method="post">
+
+    <label for="Content">pas de Content hier aan</label>
+    <textarea id="Content" name="Content" rows="4" cols="50">
+    <?php $result = GetDBInfo('Info1', 1);
+    foreach ($result as $info) {
+        echo "$info->Info1";
+    } ?>
+    </textarea>
+
+
+    <input type="hidden" name="Id" value=" <?php $result = GetDBInfo('Info1', 1);
+                                            foreach ($result as $info) {
+                                                echo "$info->Info1ID";
+                                            } ?>">
+    <input type="submit" value="Update dit veld" class="button">
+</form>
+
 
 
 <?php
