@@ -1,6 +1,3 @@
-<?php include "functions.php";
-        include ('config.php')?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+<body>
 <body>
 <header>
     <nav class="nav-bar">
@@ -24,14 +22,6 @@
       </div>
     </nav>
   </header>
-  <img src="img/e520d488-3cfa-4d4e-98cf-e564dc55436b.jpg" alt="" class="productbanner">
-  <div class="container">
-    <div class="columnproduct1">
-      <h1>Promotie</h1>
-      <img src="img/starlink-rvs.jpg" alt="" class="productimg1">
-    </div>
-    <p><?php $result = GetDBInfo('Info1' , 1); foreach($result as $info){echo "$info->Info1";}?></p>
-    <!-- The GetDBInfo works by giving the table as a parameter and then the id of the table you want to view -->
-
+    
 </body>
 </html>
