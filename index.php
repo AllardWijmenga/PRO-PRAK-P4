@@ -33,7 +33,7 @@
     <div class="columnhp2">
       <h1><?php $result = GetDBInfo('Info1' , 4); foreach($result as $info){echo "$info->Info1";}?></h1>
       <p><?php $result = GetDBInfo('Info1' , 5); foreach($result as $info){echo "$info->Info1";}?></p>
-      <img src="img/Homepagina/roof.jpg" alt="img2">
+      <img  src="img/Homepagina/roof.jpg" alt="img2">
     </div>
     <div class="columnhp3">
       <!-- Content for the third column -->
