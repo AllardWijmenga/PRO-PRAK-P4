@@ -44,6 +44,7 @@
   </div>
   <img src="img/Starlink.webp" alt="" class="productfooter">
     <!-- <p><?php $result = GetDBInfo('Info1' , 1); foreach($result as $info){echo "$info->Info1";}?></p> -->
+    <!-- The GetDBInfo works by giving the table as a parameter and then the id of the table you want to view -->
 
 </body>
 </html>

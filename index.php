@@ -31,9 +31,9 @@
       <img src="../img/Homepagina/camper.jpg" alt="img1">
     </div>
     <div class="columnhp2">
-      <h1>Flexibiliteit</h1>
-      <p>Starlink biedt flexibiliteit en eerlijke voorwaarden voor hun klanten door geen langetermijncontracten aan te bieden en prijzen naar behoefte aan te passen. Daarnaast kunnen klanten de service 30 dagen uitproberen en deze op elk moment annuleren zonder verplichtingen.</p>
-      <img src="../img/Homepagina/roof.jpg" alt="img2">
+      <h1><?php $result = GetDBInfo('Info1' , 4); foreach($result as $info){echo "$info->Info1";}?></h1>
+      <p><?php $result = GetDBInfo('Info1' , 5); foreach($result as $info){echo "$info->Info1";}?></p>
+      <img src="img/Homepagina/roof.jpg" alt="img2">
     </div>
     <div class="columnhp3">
       <!-- Content for the third column -->
