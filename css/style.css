@@ -21,7 +21,7 @@ body {
 }
 
 #contact-form {
-    padding-top: 100rem;
+    padding-top: 10rem;
     margin: 0 auto;
     width: 10%;
     text-align: center;
@@ -34,7 +34,6 @@ body {
     bottom: 0;
     overflow: scroll;
   }
-  
   .background-contact img {
     position: absolute;
     top: 0;
@@ -48,9 +47,11 @@ body {
   
   .content {
     position: relative;
-    z-index: 1;
+    z-index: -1;
     padding: 20px;
   }
+  
+
 .video1{
     background-color: #ffffff;
     height: 10%;
