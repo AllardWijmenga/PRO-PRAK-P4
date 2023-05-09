@@ -212,6 +212,8 @@ body {
     position: relative;
     width: 100%;
     height: 100vh;
+    -webkit-mask-image: linear-gradient(black, black, transparent);
+    mask-image: linear-gradient(black, black,transparent);
   }
 
   .columnproduct1 img {
@@ -295,5 +297,5 @@ body {
   position: relative;
   width: 100%;
   height: 100vh;
-  top: 2000px;
+  top: 2100px;
 }
