@@ -37,13 +37,13 @@
       <img src="img/Starlink-RV.webp" alt="" class="productimg2">
     </div>
     <div class="columnproduct3">
-      <h1>Beter</h1>
+      <h1>Starlink concurreert</h1>
       <p>Starlink concurreert met traditionele internetproviders en andere satellietinternetproviders, maar onderscheidt zich door de hoge snelheid, betrouwbaarheid en lage latentie van de internetverbinding. Bovendien is het systeem ontworpen om de capaciteit te vergroten naarmate er meer satellieten in de ruimte worden gelanceerd, wat de prestaties en betrouwbaarheid in de toekomst zal verbeteren. Starlink is ook relatief goedkoop, met lage kosten voor apparatuur en installatie.</p>
       <img src="img/starlink-antenne-parabole-rectangulaire_2000x.webp" alt="" class="productimg3">
     </div>
   </div>
   <img src="img/Starlink.webp" alt="" class="productfooter">
-    <p><?php $result = GetDBInfo('Info1' , 1); foreach($result as $info){echo "$info->Info1";}?></p>
+    <!-- <p><?php $result = GetDBInfo('Info1' , 1); foreach($result as $info){echo "$info->Info1";}?></p> -->
 
 </body>
 </html>
