@@ -14,7 +14,7 @@
 <header>
     <nav class="nav-bar">
       <div class="container">
-        <a href="index.php" class="logo"></a>
+      <a href="index.php" class="logo"><img src="img/sl5.png" alt="Logo"></a>
         <ul>
           <li><a href="index.php">Home</a></li>
           <li><a href="product.php">Product</a></li>
@@ -31,6 +31,8 @@
   </div>
 </div>
     <!-- input to get user data  -->
+
+
     <div id="contact-form">
         <form action="contact.php" method="post">
         <label for="Naam">Uw Naam :</label>
@@ -44,6 +46,7 @@
         <input type="submit" value="Submit">
         </form>
     </div>
+
 <?php 
     // running the function if the users email is set
     if(isset($_POST['Email']))
