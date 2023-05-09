@@ -3,4 +3,4 @@
 $dbHost = 'localhost';
 $dbName = 'Starlink';
 $dbUser = 'root';
-$dbPass = 'root';
+$dbPass = '';
