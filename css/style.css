@@ -4,6 +4,7 @@
     width: 10%;
 }
 
+
 body {
     background-color: #000000;
     color: #ffffff;
@@ -106,7 +107,7 @@ body {
     text-decoration: underline;
 }
 
-
+/* homepage style */
 .container {
   display: flex;
 }
@@ -116,6 +117,7 @@ body {
   padding: 20px;
   box-sizing: border-box;
 }
+
 .columnhp1 h1 {
   position: relative;
   left: 50px;
@@ -123,6 +125,7 @@ body {
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 20px;
+  max-width: 400px;
 }
 
 .columnhp1 p {
@@ -130,16 +133,53 @@ body {
   left: 50px;
   top: 90px;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: thin;
   margin-bottom: 20px;
+  max-width: 350px;
 }
 
 .columnhp1 img {
   border-radius: 90px;
   position: relative;
-  left: 50px;
-
+  left: 600px;
+  width: 600px;
+  top: -300px;
 }
+
+.columnhp2 {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.columnhp2 h1 {
+  position: relative;
+  left: 50px;
+  top: 90px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+.columnhp2 p {
+  position: relative;
+  left: 50px;
+  top: 90px;
+  font-size: 20px;
+  font-weight: thin;
+  margin-bottom: 20px;
+  max-width: 350px;
+}
+
+.columnhp2 img {
+  border-radius: 90px;
+  position: relative;
+  left: 600px;
+  width: 600px;
+  top: -300px;
+}
+
   .productbanner {
     position: relative;
     width: 100%;
@@ -158,10 +198,72 @@ body {
 
   .columnproduct1 h1 {
     position: absolute;
+    left: 800px;
+    top: 810px;
+    font-size: 50px;
+  }
+
+  .columnproduct1 p {
+    position: absolute;
+    left: 800px;
+    top: 1000px;
+    font-size: 20px;
+    max-width: 500px;
+  }
+
+  .columnproduct2 h1 {
+    position: absolute;
+    left: 100px;
+    top: 1500px;
+    font-size: 50px;
+  }
+
+  .columnproduct2 p {
+    position: absolute;
+    left: 100px;
+    top: 1700px;
+    font-size: 20px;
+    max-width: 500px;
+  }
+
+  .columnproduct2 img {
+    position: absolute;
     width: 40%;
     height: 80%;
-    left: 60px;
-    top: 850px;
+    left: 800px;
+    top: 1530px;
     border-radius: 20px;
     object-fit: cover;
   }
+
+.columnproduct3 h1 {
+  position: absolute;
+  left: 800px;
+  top: 2200px;
+  font-size: 50px;
+}
+
+.columnproduct3 p {
+  position: absolute;
+  left: 800px;
+  top: 2400px;
+  font-size: 20px;
+  max-width: 500px;
+}
+
+.columnproduct3 img {
+  position: absolute;
+  width: 40%;
+  height: 80%;
+  left: 60px;
+  top: 2230px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.productfooter {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  top: 2000px;
+}
