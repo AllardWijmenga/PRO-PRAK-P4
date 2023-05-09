@@ -33,22 +33,16 @@ $row = "";
     </textarea>
 
 
- <input type="hidden" name="Id" value=" <?php $result = GetDBInfo('Info1', 1);
-    foreach ($result as $info) {
-        echo "$info->Info1ID";
-    } ?>">
-    <input type="submit" value="Submit" class="button">
+    <input type="hidden" name="Id" value=" <?php $result = GetDBInfo('Info1', 1);
+                                            foreach ($result as $info) {
+                                                echo "$info->Info1ID";
+                                            } ?>">
+    <input type="submit" value="Update dit veld" class="button">
 </form>
+
+
+
 
 <?php
 
 ?>
-<tabler>
-    <thead>
-        <th>Voornaam</th>
-        <th>Tussenvoegsel</th>
-    </thead>
-    <tbody>
-        <?php echo $row ?>
-    </tbody>
-    </table>
