@@ -13,6 +13,7 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 0;
+    padding-bottom: 50px;
 }
 
 .menu {
@@ -41,6 +42,7 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .menu{
@@ -106,6 +108,8 @@ body {
 /* homepage style */
 .container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .columnhp1 {
@@ -139,7 +143,7 @@ body {
   position: relative;
   left: 600px;
   width: 600px;
-  top: -300px;
+  top: -320px;
 }
 
 .columnhp2 {
@@ -148,10 +152,11 @@ body {
   box-sizing: border-box;
 }
 
+
 .columnhp2 h1 {
   position: relative;
   right: -50px;
-  top: 600px;
+  top: 625px;
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -161,7 +166,7 @@ body {
 .columnhp2 p {
   position: relative;
   left: 50px;
-  top: 600px;
+  top: 650px;
   font-size: 20px;
   font-weight: thin;
   margin-bottom: 20px;
@@ -176,10 +181,46 @@ body {
   top: 300px;
 }
 
-  .containerproduct {
-    display: flex;
-    flex-direction: column;
-  }
+.columnhp3 {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.columnhp3 h1 {
+  position: relative;
+  right: 1225px;
+  top: 1305px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+
+
+.columnhp3 p {
+  position: relative;
+  right: 1225px;
+  top: 1305px;
+  font-size: 18px;
+  font-weight: thin;
+  margin-bottom: 20px;
+  max-width: 350px;
+}
+
+.columnhp3 img {
+  border-radius: 140px;
+  position: relative;
+  right: 600px;
+  width: 600px;
+  top: 925px;
+  padding-bottom: 75px;
+}
+
+
+
+
 
   .productbanner {
     position: relative;
@@ -202,7 +243,7 @@ body {
   .columnproduct1 h1 {
     position: absolute;
     left: 1100px;
-    top: 1005px;
+    top: 1010px;
     font-size: 50px;
   }
 
@@ -225,7 +266,7 @@ body {
   .columnproduct2 p {
     position: absolute;
     left: 200px;
-    top: 2000px;
+    top: 2100px;
     font-size: 20px;
     max-width: 500px;
     font-size: 24px;
@@ -244,8 +285,8 @@ body {
 
 .columnproduct3 h1 {
   position: absolute;
-  left: 800px;
-  top: 2200px;
+  left: 1000px;
+  top: 2800px;
   font-size: 50px;
   max-width: 300px;
   line-height: 50px;
@@ -253,8 +294,8 @@ body {
 
 .columnproduct3 p {
   position: absolute;
-  left: 800px;
-  top: 2400px;
+  left: 1000px;
+  top: 3100px;
   font-size: 20px;
   max-width: 500px;
 }
@@ -264,7 +305,7 @@ body {
   width: 40%;
   height: 80%;
   left: 60px;
-  top: 2230px;
+  top: 2830px;
   border-radius: 20px;
   object-fit: cover;
 }
@@ -273,7 +314,7 @@ body {
   position: relative;
   width: 100%;
   height: 100vh;
-  top: 2100px;
+  top: 2700px;
 }
 
 
