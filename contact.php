@@ -11,6 +11,7 @@
     <title>Document</title>
 </head>
 <body>
+  <div class="container-contact">
 <header>
     <nav class="nav-bar">
       <div class="container">
@@ -24,28 +25,14 @@
       </div>
     </nav>
   </header>
-    <div class="background-contact">
-  <img src="img/sl1.png" alt="sl">
-  <div class="content">
-    <!-- Your content goes here -->
-  </div>
 </div>
-    <!-- input to get user data  -->
+
+<img src="img/Contactpagina/background1.png" alt="" class="productbannercontact1">
+<img src="img/Contactpagina/background2.png" alt="" class="productbannercontact2">
+<img src="img/Contactpagina/background3.png" alt="" class="productbannercontact3">
 
 
-    <div id="contact-form">
-        <form action="contact.php" method="post">
-        <label for="Naam">Uw Naam :</label>
-        <input type="name" name="name" id="name">
-        <label for="Email">Uw email :</label>
-        <input type="email" name="Email" id="Email">
-        <label for="Telefoon">Telefoon :</label>
-        <input type="Telefoon" name="Telefoon" id="Telefoon">
-        <label for="Opmerking">Opmerking :</label>
-        <input type="Opmerking" name="Opmerking" id="Opmerking">
-        <input type="submit" value="Submit">
-        </form>
-    </div>
+</div>
 
 <?php 
     // running the function if the users email is set
