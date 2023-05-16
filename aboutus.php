@@ -26,9 +26,10 @@
       </nav>
 
 
-      <div class="footer-aboutp"></div>
-    </header>
 
+    </header>
+    <div class="aboutp-content"></div>
+    <footer class="footer-aboutp"></footer>
 
 
   </body>
