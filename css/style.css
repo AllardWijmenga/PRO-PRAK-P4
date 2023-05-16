@@ -166,6 +166,32 @@ body {
   margin-top: 1000px;
 }
 
+@import url("https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  position: relative;
+  letter-spacing: 0.04em;
+}
+.section {
+  height: 50vh;
+  width: 100%;
+  position: relative;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 100px;
+}
+
+.revealUp {
+  opacity: 0;
+  visibility: hidden;
+}
+
 .nav-bar {
   position: fixed;
   top: 0;

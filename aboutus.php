@@ -28,10 +28,22 @@
 
 
     </header>
+
+
+    <div class="section bg1">
+      <h1 class="revealUp">LEADER IN SPACE SUSTAINABILITY.</h1>
+    </div>
+
+
+    <div class="spacer"></div>
     <div class="aboutp-content"></div>
     <footer class="footer-aboutp"></footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
 
+
+    <script src="about.js"></script>
   </body>
 
 </html>
