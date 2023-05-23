@@ -28,8 +28,34 @@
 </div>
 
 <img src="img/Contactpagina/background1.png" alt="" class="productbannercontact1">
-<img src="img/Contactpagina/background2.png" alt="" class="productbannercontact2">
-<img src="img/Contactpagina/background3.png" alt="" class="productbannercontact3">
+
+<div class="container-contactform">
+    <div class="contacttext">
+        <h1>CONTACT ONS!</h1>
+        <img src="img/Contactpagina/arrowdown.png" class="contactarrowdown">
+       
+    </div>
+    <div class="contact-form">
+    <form action="" method="POST"><br><br><br>
+    <input type="text" id="naam" name="naam" placeholder="NAAM" required><br><br>
+    <input type="email" id="email" name="email" placeholder="EMAIL" required><br><br>
+    <input type="tel" id="telefoon" name="telefoon" placeholder="TELEFOON" required><br><br>
+    <textarea id="bericht" name="bericht" placeholder="UW BERICHT..." rows="4" cols="50" required></textarea><br><br>
+
+    <input class="submitcontact" type="submit" value="STUREN!">
+    </div>
+
+   
+    <img src="img/Contactpagina/background2.png" alt="" class="productbannercontact2">
+    <div class="contact-bottom">
+      <h3>Wil jij up to date blijven van Starlink!</h3>
+      <div class="contactuptodateform">
+        <form action="" method="POST">
+          <input class="emailsignup" type="email" id="Email" name="Email" placeholder="EMAIL"><br><br>
+          <input class="submitsignup" type="submit" value="SIGN UP">
+      </div>
+    </div>
+    <img src="img/Contactpagina/background3.png" alt="" class="productbannercontact3">
 
 
 </div>
