@@ -24,9 +24,12 @@
       </div>
     </nav>
   </header>
+  <div>
   <img src="img/e520d488-3cfa-4d4e-98cf-e564dc55436b.jpg" alt="" class="productbanner">
-  <div class="containerproduct">
-    <div class="columnproduct1">
+  <!-- <button class="buttonproduct"><span><a href="#test">Lees meer </a></span></button>  -->
+</div>
+<div class="containerproduct">
+    <div id="test" class="columnproduct1">
       <h1>Promotie</h1>
       <p>Starlink is een internetdienst van SpaceX die een wereldwijd breedbandnetwerk van satellieten biedt. Het doel van de promotie van Starlink is om klanten een snelle, betrouwbare en betaalbare internetverbinding te bieden, zelfs op afgelegen locaties waar traditionele internetproviders geen dekking bieden.</p>
       <img src="img/starlink-rvs.jpg" alt="" class="productimg1">
