@@ -166,6 +166,19 @@ body {
   margin-top: 1000px;
 }
 
+.aboutus-textcontainer {
+  width: 80%;
+  position: absolute;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 100px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
 @import url("https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap");
 *,
 *:before,
