@@ -405,6 +405,13 @@ body {
   max-width: 500px;
   font-size: 24px;
 }
+  .columnproduct1 p {
+    position: relative;
+    left: 1100px;
+    top: 300px;
+    max-width: 500px;
+    font-size: 24px;
+  }
 
 .columnproduct2 h1 {
   position: relative;
@@ -421,6 +428,13 @@ body {
   max-width: 500px;
   font-size: 24px;
 }
+  .columnproduct2 p {
+    position: relative;
+    left: 200px;
+    top: -50px;
+    max-width: 500px;
+    font-size: 24px;
+  }
 
 .columnproduct2 img {
   position: relative;
@@ -434,37 +448,39 @@ body {
 }
 
 .columnproduct3 h1 {
-  position: absolute;
+  position: relative;
   left: 1000px;
-  top: 2750px;
+  top: -600px;
   font-size: 50px;
   max-width: 300px;
   line-height: 50px;
 }
 
 .columnproduct3 p {
-  position: absolute;
+  position: relative;
   left: 1000px;
-  top: 3050px;
-  font-size: 20px;
+  top: -500px;
+  font-size: 24px;
   max-width: 500px;
 }
 
 .columnproduct3 img {
-  position: absolute;
-  width: 40%;
-  height: 80%;
-  left: 60px;
-  top: 2780px;
-  border-radius: 20px;
-  object-fit: cover;
+  position: relative;
+    width: 800px;
+    height: 800px;
+    left: 60px;
+    top: -1200px;
+    object-fit: cover;
+    border-radius: 20px;
+    object-position: center;
 }
 
 .productfooter {
   position: relative;
   width: 100%;
-  height: 100vh;
-  top: 2700px;
+  height: auto; /* Let the height adjust based on the content */
+  top: -1000px;
+  overflow: hidden; /* Hide any content that exceeds the footer height */
 }
 
 .productbannercontact1 {
@@ -569,45 +585,3 @@ body {
   font-weight: bold;
   background-color: rgba(242, 242, 242, 0.2);
 }
-
-/* .buttonproduct {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: white;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
-
-.buttonproduct span {
-  cursor: pointer;
-  display: inline-block;
-  position: absolute;
-  transition: 0.5s;
-  left: 850px;
-  top: 700px;
-}
-
-.buttonproduct span:after {
-  content: '↓';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.buttonproduct:hover span {
-  padding-right: 25px;
-}
-
-.buttonproduct:hover span:after {
-  opacity: 1;
-  right: 0;
-} */
