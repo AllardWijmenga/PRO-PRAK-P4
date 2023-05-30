@@ -1,20 +1,22 @@
 <?php include "functions.php";
-        include ('config.php')?>
+include('config.php') ?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
 </head>
+
 <body>
-<header>
+  <header>
     <nav class="nav-bar">
       <div class="container">
-      <a href="index.php" class="logo"><img src="img/sl5.png" alt="Logo"></a>
+        <a href="index.php" class="logo"><img src="img/sl5.png" alt="Logo"></a>
         <ul>
           <li><a href="index.php">Home</a></li>
           <li><a href="product.php">Product</a></li>
@@ -24,9 +26,12 @@
       </div>
     </nav>
   </header>
+  <div>
   <img src="img/e520d488-3cfa-4d4e-98cf-e564dc55436b.jpg" alt="" class="productbanner">
-  <div class="containerproduct">
-    <div class="columnproduct1">
+  <!-- <button class="buttonproduct"><span><a href="#test">Lees meer </a></span></button>  -->
+</div>
+<div class="containerproduct">
+    <div id="test" class="columnproduct1">
       <h1>Promotie</h1>
       <p>Starlink is een internetdienst van SpaceX die een wereldwijd breedbandnetwerk van satellieten biedt. Het doel van de promotie van Starlink is om klanten een snelle, betrouwbare en betaalbare internetverbinding te bieden, zelfs op afgelegen locaties waar traditionele internetproviders geen dekking bieden.</p>
       <img src="img/starlink-rvs.jpg" alt="" class="productimg1">
@@ -43,8 +48,12 @@
     </div>
   </div>
   <img src="img/Starlink.webp" alt="" class="productfooter">
-    <!-- <p><?php $result = GetDBInfo('Info1' , 1); foreach($result as $info){echo "$info->Info1";}?></p> -->
-    <!-- The GetDBInfo works by giving the table as a parameter and then the id of the table you want to view -->
+  <!-- <p><?php $result = GetDBInfo('Info1', 1);
+          foreach ($result as $info) {
+            echo "$info->Info1";
+          } ?></p> -->
+  <!-- The GetDBInfo works by giving the table as a parameter and then the id of the table you want to view -->
 
 </body>
+
 </html>
