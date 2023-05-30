@@ -23,7 +23,6 @@
           <li><a href="contact.php">Contact</a></li>
           <li><a href="aboutus.php">About us</a></li>
         </ul>
-        </ul>
       </div>
     </nav>
   </header>
