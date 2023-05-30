@@ -47,7 +47,9 @@ include('config.php') ?>
       <img src="img/starlink-antenne-parabole-rectangulaire_2000x.webp" alt="" class="productimg3">
     </div>
   </div>
-  <img src="img/Starlink.webp" alt="" class="productfooter">
+    <footer>
+    <img src="img/Starlink.webp" alt="" class="productfooter">
+  </footer>
   <!-- <p><?php $result = GetDBInfo('Info1', 1);
           foreach ($result as $info) {
             echo "$info->Info1";
