@@ -45,7 +45,7 @@ $row = "";
 
     <label for="Content">pas de Content hier aan</label>
     <textarea id="Content" name="Content" rows="4" cols="50">
-    <?php $result = GetDBInfo('Info1', 1);
+    <?php $result = GetDBInfo('Info1', 2);
     foreach ($result as $info) {
         echo "$info->Info1";
     } ?>
@@ -62,7 +62,7 @@ $row = "";
 
     <label for="Content">pas de Content hier aan</label>
     <textarea id="Content" name="Content" rows="4" cols="50">
-    <?php $result = GetDBInfo('Info1', 1);
+    <?php $result = GetDBInfo('Info1', 3);
     foreach ($result as $info) {
         echo "$info->Info1";
     } ?>
@@ -79,7 +79,7 @@ $row = "";
 
     <label for="Content">pas de Content hier aan</label>
     <textarea id="Content" name="Content" rows="4" cols="50">
-    <?php $result = GetDBInfo('Info1', 1);
+    <?php $result = GetDBInfo('Info1', 4);
     foreach ($result as $info) {
         echo "$info->Info1";
     } ?>
@@ -96,7 +96,7 @@ $row = "";
 
     <label for="Content">pas de Content hier aan</label>
     <textarea id="Content" name="Content" rows="4" cols="50">
-    <?php $result = GetDBInfo('Info1', 1);
+    <?php $result = GetDBInfo('Info1', 5);
     foreach ($result as $info) {
         echo "$info->Info1";
     } ?>
@@ -113,7 +113,7 @@ $row = "";
 
     <label for="Content">pas de Content hier aan</label>
     <textarea id="Content" name="Content" rows="4" cols="50">
-    <?php $result = GetDBInfo('Info1', 1);
+    <?php $result = GetDBInfo('Info1', 6);
     foreach ($result as $info) {
         echo "$info->Info1";
     } ?>
@@ -130,7 +130,7 @@ $row = "";
 
     <label for="Content">pas de Content hier aan</label>
     <textarea id="Content" name="Content" rows="4" cols="50">
-    <?php $result = GetDBInfo('Info1', 1);
+    <?php $result = GetDBInfo('Info1', 7);
     foreach ($result as $info) {
         echo "$info->Info1";
     } ?>
@@ -147,7 +147,7 @@ $row = "";
 
     <label for="Content">pas de Content hier aan</label>
     <textarea id="Content" name="Content" rows="4" cols="50">
-    <?php $result = GetDBInfo('Info1', 1);
+    <?php $result = GetDBInfo('Info1', 8);
     foreach ($result as $info) {
         echo "$info->Info1";
     } ?>
@@ -164,7 +164,7 @@ $row = "";
 
     <label for="Content">pas de Content hier aan</label>
     <textarea id="Content" name="Content" rows="4" cols="50">
-    <?php $result = GetDBInfo('Info1', 1);
+    <?php $result = GetDBInfo('Info1', 9);
     foreach ($result as $info) {
         echo "$info->Info1";
     } ?>
@@ -181,7 +181,7 @@ $row = "";
 
     <label for="Content">pas de Content hier aan</label>
     <textarea id="Content" name="Content" rows="4" cols="50">
-    <?php $result = GetDBInfo('Info1', 1);
+    <?php $result = GetDBInfo('Info1', 10);
     foreach ($result as $info) {
         echo "$info->Info1";
     } ?>
@@ -200,7 +200,7 @@ $row = "";
 
     <label for="Content">pas de Content hier aan</label>
     <textarea id="Content" name="Content" rows="4" cols="50">
-    <?php $result = GetDBInfo('Info1', 1);
+    <?php $result = GetDBInfo('Info1', 11);
     foreach ($result as $info) {
         echo "$info->Info1";
     } ?>
@@ -217,7 +217,7 @@ $row = "";
 
     <label for="Content">pas de Content hier aan</label>
     <textarea id="Content" name="Content" rows="4" cols="50">
-    <?php $result = GetDBInfo('Info1', 1);
+    <?php $result = GetDBInfo('Info1', 12);
     foreach ($result as $info) {
         echo "$info->Info1";
     } ?>
@@ -234,7 +234,7 @@ $row = "";
 
     <label for="Content">pas de Content hier aan</label>
     <textarea id="Content" name="Content" rows="4" cols="50">
-    <?php $result = GetDBInfo('Info1', 1);
+    <?php $result = GetDBInfo('Info1', 13);
     foreach ($result as $info) {
         echo "$info->Info1";
     } ?>
@@ -251,7 +251,7 @@ $row = "";
 
     <label for="Content">pas de Content hier aan</label>
     <textarea id="Content" name="Content" rows="4" cols="50">
-    <?php $result = GetDBInfo('Info1', 1);
+    <?php $result = GetDBInfo('Info1', 14);
     foreach ($result as $info) {
         echo "$info->Info1";
     } ?>
@@ -268,7 +268,7 @@ $row = "";
 
     <label for="Content">pas de Content hier aan</label>
     <textarea id="Content" name="Content" rows="4" cols="50">
-    <?php $result = GetDBInfo('Info1', 1);
+    <?php $result = GetDBInfo('Info1', 15);
     foreach ($result as $info) {
         echo "$info->Info1";
     } ?>
