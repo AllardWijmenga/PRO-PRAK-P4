@@ -1,3 +1,4 @@
+
 <?php include "functions.php" ?>
 
 <!DOCTYPE html>
@@ -21,11 +22,11 @@
           <li><a href="product.php">Product</a></li>
           <li><a href="contact.php">Contact</a></li>
           <li><a href="aboutus.php">About us</a></li>
+          <li><a href="update.php">Update</a></li>
         </ul>
       </div>
     </nav>
   </header>
-
 
 
   <!-- vergeet niet de database te importeren voordat je deze pagina bekijkt!!!!!!!!!!!!! -->
